@@ -1,0 +1,3 @@
+base_config: 'config/agents/rs_kernelucbvi.yaml'
+init_kwargs:
+  use_twinroom_symmetry: True

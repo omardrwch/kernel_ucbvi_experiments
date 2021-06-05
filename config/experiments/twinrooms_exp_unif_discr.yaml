@@ -1,0 +1,11 @@
+description: 'UCBVI and OptQL (with uniform discretization) in the TwinRooms environment'
+seed: 123
+train_env: 'config/envs/twinrooms_discr.yaml'
+eval_env: 'config/envs/twinrooms_discr.yaml'
+global_init_kwargs:
+  n_episodes: 50000
+  horizon: 20
+agents:
+- 'config/agents/ucbvi.yaml'
+- 'config/agents/ucbvi_greedy.yaml'
+- 'config/agents/optql.yaml'

@@ -1,0 +1,5 @@
+agent_class: 'algorithms.adaptiveql.AdaptiveQLAgent'
+init_kwargs:
+  gamma: 1.0
+  bonus_scale_factor: 1.0
+  bonus_type: 'simplified_bernstein'

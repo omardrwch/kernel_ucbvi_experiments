@@ -1,0 +1,4 @@
+constructor: 'rlberry.envs.benchmarks.generalization.twinrooms.TwinRooms'
+params:
+    noise_room1: 0.01
+    noise_room2: 0.01

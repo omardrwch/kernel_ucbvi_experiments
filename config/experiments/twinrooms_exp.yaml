@@ -1,0 +1,12 @@
+description: 'KernelUCBVI versus AdaptiveQL in TwinRooms'
+seed: 123
+train_env: 'config/envs/twinrooms.yaml'
+eval_env: 'config/envs/twinrooms.yaml'
+global_init_kwargs:
+  n_episodes: 50000
+  horizon: 20
+agents:
+  - 'config/agents/rs_greedykernelucbvi.yaml'
+  - 'config/agents/rs_kernelucbvi.yaml'
+  - 'config/agents/rs_kernelucbvi_symmetric.yaml'
+  - 'config/agents/adaptiveql.yaml'

@@ -1,0 +1,10 @@
+agent_class: 'algorithms.rs_kernelucbvi.RSKernelUCBVIAgent'
+init_kwargs:
+  gamma: 1.0
+  lp_metric: 2
+  kernel_type: 'gaussian'
+  bandwidth: 0.025
+  min_dist: 0.05
+  max_repr: 500
+  bonus_scale_factor: 1.0
+  beta: 0.01
